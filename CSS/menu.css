@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: helvetica, arial, 'Microsoft Sans Serif','MS Reference Sans Serif', sans-serif;
+}
+html, body{
+}
+h1{
+    
+    color:#FF2931;
+    background-color: #FF757A;
+    font-size: 6.854rem;
+   font-family: 'Bree Serif', 'Droid Serif', 'Noto Serif', serif;
+    padding: 1rem 2rem;
+}
+h2{
+    background-color: #FF2931;
+    font-size: 4.23rem;
+    font-family: 'Bree Serif', 'Droid Serif', 'Noto Serif', serif;
+    padding: 1rem 2rem;
+    
+}
+
+nav {
+     width:200px;
+    
+}
+nav ul {
+    margin:0;
+    padding:0;
+  
+}
+nav li{
+    background-color: #CC2027;
+    color:#7F3B3D;
+    font-size: 2.618rem;
+    font-family: 'Microsoft Sans Serif','Boutros Latin Sans Serif','Egiptian Sans Serif', sans-serif;
+    list-style: none;
+    float:left;
+    display:block;
+   padding: 3px 3px;
+
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.618rem;
+    font-family: 'Microsoft Sans Serif','Boutros Latin Sans Serif','Egyptian Sans Serif', sans-serif;
+    padding: 1rem 2rem;
+    color:#7F1418;
+    background-color: #FF757A;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    color:#7F1418;
+    
+   
+   
+}
+header{
+    border-bottom: 0.8rem solid #7F1418;
+    background-color: #FF757A;
+    color: rgb(127, 59, 61);
+}
+.menu-h{
+    width: 100%;
+    list-style: none;
+    margin:0;
+    float: right;
+    padding: 20px;
+}
+
+    
+.menu-h li a:hover{
+    color: rgb(127, 59, 61);
+    font-family:'MS Reference Sans Serif' ;
+    font-size: 23px;
+}
+
+.menu-h a,
+.menu-h a:link
+.menu-h a:visited{
+    
+}
+.menu-h a:hover,
+.menu-h a:active,
+.menu-v li a:hover{
+    color: #7F3B3D;
+
+    
+}
+      
+
+
+
+
+
+.menu-v{
+    width: 1px;
+    float:left;
+    padding: 3px 3px;
+}
+    .menu-v li{
+     padding: 10px 5px;
+    position: relative;
+        width:40px;
+    
+}
+
+
+
+.menu-v a,
+.menu-v a:link
+.menu-v a:visited{
+    
+}
+.menu-v a:hover,
+.menu-v a:active,
+.menu-v li a:hover{
+    color: #7F3B3D;
+}
+
+
+        
+        
+        
+main{
+    width:80%;
+    float: right;
+    background-color: #FF757A;
+}
+footer{
+    font-family: 'Bree Serif', 'Droid Serif', 'Noto Serif', serif;
+    clear:both;
+    color:#5A357F;
+    background-color: #8F55CC;
+}
