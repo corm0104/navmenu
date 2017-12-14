@@ -9,6 +9,8 @@ html{
     font-family: helvetica, arial, 'Microsoft Sans Serif','MS Reference Sans Serif', sans-serif;
 }
 html, body{
+    width:auto;
+    
 }
 h1{
     
@@ -48,6 +50,9 @@ nav li{
     
     
 }
+
+
+}
 nav ul li a{
     text-decoration: none;
 }
@@ -69,23 +74,38 @@ p{
    
 }
 header{
+    text-align: center;
+    border: 0.4rem solid #7F1418;
     border-bottom: 0.8rem solid #7F1418;
     background-color: #FF757A;
     color: rgb(127, 59, 61);
+    margin: 20px;
 }
 .menu-h{
     width: 100%;
+    text-align: center;
     list-style: none;
     margin:0;
     float: right;
-    padding: 20px;
+    padding: 5px 5px 5px 38px;
+    margin: 5px 5px;
+}
+.menu-h li a{
+    color: #7F1418;
+    font-size: 38px;
+}
+.menu-v li a{
+    color: #7F1418;
+    font-size: 33px;
 }
 
     
 .menu-h li a:hover{
-    color: rgb(127, 59, 61);
+    width:100%;
+    text-align: center;
+    color: #FF757A;
     font-family:'MS Reference Sans Serif' ;
-    font-size: 23px;
+    font-size: 53px;
 }
 
 .menu-h a,
@@ -95,11 +115,7 @@ header{
 }
 .menu-h a:hover,
 .menu-h a:active,
-.menu-v li a:hover{
-    color: #7F3B3D;
 
-    
-}
       
 
 
@@ -107,14 +123,16 @@ header{
 
 
 .menu-v{
-    width: 1px;
+    width: 50px;
     float:left;
     padding: 3px 3px;
 }
     .menu-v li{
-     padding: 10px 5px;
+        text-align: center;
+     padding: 1px 5px 5px 5px;
+        margin: 1px 1px 1px 1px;
     position: relative;
-        width:40px;
+        width:100px;
     
 }
 
@@ -127,14 +145,19 @@ header{
 }
 .menu-v a:hover,
 .menu-v a:active,
+
 .menu-v li a:hover{
-    color: #7F3B3D;
+    color: #FF757A;  
+    text-transform: uppercase;
+    
 }
 
+        
+        
+body{
+    background-color: #FF757A;
+}        
 
-        
-        
-        
 main{
     width:80%;
     float: right;
